@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.congratulations-container {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin: 0 150px;
+  padding: 0 20px; 
+}
+
+img {
+  max-width: 500px;
+  height: auto;
+  border-radius: 10px;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.block p {
+  font-size: 1.4rem;
+  color: #666;
+  margin-bottom: 20px;
+  text-align: justify;
+}
+
+a {
+  float: right;
+  text-align: right;
+  text-decoration: none;
+  color: #5a249b;
+  font-weight: bold;
+  font-size: 1.4rem;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #a5d8e9;
+}
+

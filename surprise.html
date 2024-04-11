@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="surprise-container">
+        <img src="images/27.png" style="width: 300px; border-radius: 10px; margin-top: -130px;">
+        <h1>Сюрприз!</h1>
+        <p>Ти готова побачити подарунок?</p>
+        <button id="showGalleryButton">Так, покажи мені!</button>
+    </div>
+
+    <script>
+        document.getElementById('showGalleryButton').addEventListener('click', function() {
+            window.location.href = 'gallery.html';
+        });
+    </script>
+</body>
+</html>
